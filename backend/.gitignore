@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+backend/venv/
+backend/__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+backend/.env
+
+# Database
+*.db
+*.sqlite3
+
+# Uploads
+backend/uploads/
+uploads/
+
+# Build files
+frontend/build/
+frontend/dist/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Python virtual environment
+venv/
+env/
+ENV/
+
+# Flask instance folder
+instance/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
